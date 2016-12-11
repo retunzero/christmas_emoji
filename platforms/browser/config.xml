@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.dteam.emoji" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Christmas Emoji -The Emoji Quiz</name>
+    <description>Keep Calm and play christmas emoji</description>
+    <author email="retunzero@gmail.com">author</author>
+    <icon height="128" src="icon-128.png" width="128" />
+    <icon gap:role="default" height="256" src="icon-256.png" width="256" />
+    <gap:config-file parent="UIStatusBarHidden" platform="ios">
+        <true />
+    </gap:config-file>
+    <gap:config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios">
+        <false />
+    </gap:config-file>
+    <access origin="*" />
+    <preference name="permissions" value="none" />
+    <preference name="android-targetSdkVersion" value="21" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="deployment-target" value="8.0" />
+    <preference name="android-minSdkVersion" value="16" />
+</widget>
