@@ -15,8 +15,6 @@
 "h7":"Celebration",
 "q8":"santas grotto",
 "h8":"Celebration",
-"q8":"jingle bell",
-"h8":"Music",
 "q9":"home time",
 "h9":"ComeBack",
 "q10":"hit music",
