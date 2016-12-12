@@ -3,7 +3,7 @@
 
 	<name>Christmas Emoji -The Emoji Quiz</name>
 	<description>Keep Calm and play christmas emoji</description>
-	<author email="retunzero@gmail.com">author</author>
+	<author email="retunzero@gmail.com">DTeam</author>
 
 	<icon src="icon-128.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
@@ -30,6 +30,7 @@
 	<access origin="*" />
 
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<gap:plugin name="cordova-plugin-admobpro" source="npm" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
