@@ -1,7 +1,7 @@
 {"c2dictionary":true, "data":{
 "q1":"christmas",
 "h1":"Event",
-"q2":"sacred place",
+"q2":"religion",
 "h2":"Almighty",
 "q3":"xmas gift",
 "h3":"Celebration",
