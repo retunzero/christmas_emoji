@@ -6,6 +6,10 @@
 	<author email="retunzero@gmail.com">DTeam</author>
 
 	<icon src="icon-128.png" width="128" height="128" />
+	<icon src="icon-57.png" width="128" height="128" />
+	<icon src="icon-72.png" width="128" height="128" />
+	<icon src="icon-114.png" width="128" height="128" />
+	<icon src="icon-144.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
 	<preference name="permissions" value="none"/>
