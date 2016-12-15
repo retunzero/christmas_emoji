@@ -12,6 +12,13 @@
 	<icon src="icon-144.png" width="144" height="144" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
+	<splash src="splash_320_480.png" width="320" height="480"/>
+	<splash src="splash_640_960.png" width="640" height="960"/>
+	<splash src="splash_640_1136.png" width="640" height="1136"/>
+	<splash src="splash_750_1334.png" width="750" height="1134"/>
+	<splash src="splash_768_1024.png" width="768" height="1024"/>
+	<splash src="splash_1242_2208.png" width="1242" height="2208"/>
+
 	<preference name="permissions" value="none"/>
 	<preference name="android-targetSdkVersion" value="21" />
 
