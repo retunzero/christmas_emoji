@@ -48,19 +48,19 @@
     <plugin name="cordova-plugin-inappbrowser" source="npm" />
     <gap:plugin name="cordova-plugin-ad-admob" source="npm" />
 
-    <plugin name="cordova-plugin-settings-hook" spec="~0.2.4" />
+    <!--<plugin name="cordova-plugin-settings-hook" spec="~0.2.4" />-->
 
-    <platform name="ios">
-        <config-file parent="NSCalendarsUsageDescription" platform="ios" target="*-Info.plist">
-            <string>Advertisement would like to create a calendar event.</string>
-        </config-file>
-        <config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
-            <string>Advertisement would like to store a photo.</string>
-        </config-file>
-        <config-file parent="NSBluetoothPeripheralUsageDescription" platform="ios" target="*-Info.plist">
-            <string>Advertisement would like to use bluetooth.</string>
-        </config-file>
-    </platform>
+    <!--<platform name="ios">-->
+        <!--<config-file parent="NSCalendarsUsageDescription" platform="ios" target="*-Info.plist">-->
+            <!--<string>Advertisement would like to create a calendar event.</string>-->
+        <!--</config-file>-->
+        <!--<config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">-->
+            <!--<string>Advertisement would like to store a photo.</string>-->
+        <!--</config-file>-->
+        <!--<config-file parent="NSBluetoothPeripheralUsageDescription" platform="ios" target="*-Info.plist">-->
+            <!--<string>Advertisement would like to use bluetooth.</string>-->
+        <!--</config-file>-->
+    <!--</platform>-->
     <!-- Optional splash screen image, e.g.: -->
     <!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
 
