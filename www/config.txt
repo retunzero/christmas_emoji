@@ -4,7 +4,7 @@
 	"googlePage":"https://plus.google.com/u/0/106079658663042545192",
 	"rateUs":"https://itunes.apple.com/us/app/christmas-emoji-emoji-quiz/id1186648945?ls=1&mt=8",
 	"moreGames":"https://itunes.apple.com/us/developer/s-m-raihan-azim/id1159441460",
-	"shareMessage":"I just passed level $level of EmojiQuiz. Check it out mygames.com",
+	"shareMessage":"I just passed level $level of EmojiQuiz. Check it out ",
 	"label_quit":"Are you sure you want to quit ?",
 	"label_reset":"Are you sure you want to reset the game ?",
 	"label_nocoins":"You don't have enough coins !",

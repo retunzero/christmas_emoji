@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.dteam.emoji" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.dteam.emoji" version="1.0">
 
     <name>Christmas Emoji -The Emoji Quiz</name>
     <description>Keep Calm and play christmas emoji</description>
@@ -24,25 +24,44 @@
     <splash src="splash_1536_2048.png" width="1536" height="2048"/>
     <splash src="splash_2048_2732.png" width="2048" height="2732"/>
 
-    <preference name="permissions" value="none" />
+    <preference name="permissions" value="none"/>
     <preference name="android-targetSdkVersion" value="21" />
-    <feature name="http://api.phonegap.com/1.0/network" />
+
+    <feature name="http://api.phonegap.com/1.0/network"/>
+
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="true" />
-    <gap:config-file parent="UIStatusBarHidden" platform="ios">
-        <true />
-    </gap:config-file>
-    <gap:config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios">
-        <false />
-    </gap:config-file>
+    <gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
+
     <preference name="deployment-target" value="8.0" />
     <preference name="android-minSdkVersion" value="19" />
     <plugin name="cordova-plugin-crosswalk-webview" source="npm" />
+
     <plugin name="cordova-plugin-wkwebview-engine" />
     <plugin name="cordova-plugin-file" />
     <plugin name="cordova-plugin-httpd" />
+
     <plugin name="cordova-plugin-whitelist" source="npm" />
     <access origin="*" />
+
     <plugin name="cordova-plugin-inappbrowser" source="npm" />
     <gap:plugin name="cordova-plugin-ad-admob" source="npm" />
+
+    <plugin name="cordova-plugin-settings-hook" spec="~0.2.4" />
+
+    <platform name="ios">
+        <config-file parent="NSCalendarsUsageDescription" platform="ios" target="*-Info.plist">
+            <string>Advertisement would like to create a calendar event.</string>
+        </config-file>
+        <config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
+            <string>Advertisement would like to store a photo.</string>
+        </config-file>
+        <config-file parent="NSBluetoothPeripheralUsageDescription" platform="ios" target="*-Info.plist">
+            <string>Advertisement would like to use bluetooth.</string>
+        </config-file>
+    </platform>
+    <!-- Optional splash screen image, e.g.: -->
+    <!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
 </widget>
