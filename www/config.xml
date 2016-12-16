@@ -1,67 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.dteam.emoji" version="1.0">
 
-    <name>Christmas Emoji -The Emoji Quiz</name>
-    <description>Keep Calm and play christmas emoji</description>
-    <author email="retunzero@gmail.com">DTeam</author>
+	<name>Christmas Emoji -The Emoji Quiz</name>
+	<description>Keep Calm and play christmas emoji</description>
+	<author email="retunzero@gmail.com">DTeam</author>
 
-    <icon src="icon-128.png" width="128" height="128" />
-    <icon src="icon-57.png" width="57" height="57" />
-    <icon src="icon-72.png" width="72" height="72" />
-    <icon src="icon-76.png" width="76" height="76" />
-    <icon src="icon-120.png" width="120" height="120" />
-    <icon src="icon-152.png" width="152" height="152" />
-    <icon src="icon-114.png" width="114" height="114" />
-    <icon src="icon-144.png" width="144" height="144" />
-    <icon src="icon-256.png" width="256" height="256" gap:role="default" />
+	<icon src="icon-128.png" width="128" height="128" />
+	<icon src="icon-57.png" width="57" height="57" />
+	<icon src="icon-72.png" width="72" height="72" />
+	<icon src="icon-76.png" width="76" height="76" />
+	<icon src="icon-120.png" width="120" height="120" />
+	<icon src="icon-152.png" width="152" height="152" />
+	<icon src="icon-114.png" width="114" height="114" />
+	<icon src="icon-144.png" width="144" height="144" />
+	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
-    <splash src="splash_320_480.png" width="320" height="480"/>
-    <splash src="splash_640_960.png" width="640" height="960"/>
-    <splash src="splash_640_1136.png" width="640" height="1136"/>
-    <splash src="splash_750_1334.png" width="750" height="1334"/>
-    <splash src="splash_768_1024.png" width="768" height="1024"/>
-    <splash src="splash_1242_2208.png" width="1242" height="2208"/>
-    <splash src="splash_1536_2048.png" width="1536" height="2048"/>
-    <splash src="splash_2048_2732.png" width="2048" height="2732"/>
+	<splash src="splash_320_480.png" width="320" height="480"/>
+	<splash src="splash_640_960.png" width="640" height="960"/>
+	<splash src="splash_640_1136.png" width="640" height="1136"/>
+	<splash src="splash_750_1334.png" width="750" height="1334"/>
+	<splash src="splash_768_1024.png" width="768" height="1024"/>
+	<splash src="splash_1242_2208.png" width="1242" height="2208"/>
+	<splash src="splash_1536_2048.png" width="1536" height="2048"/>
+	<splash src="splash_2048_2732.png" width="2048" height="2732"/>
 
-    <preference name="permissions" value="none"/>
-    <preference name="android-targetSdkVersion" value="21" />
+	<preference name="permissions" value="none"/>
+	<preference name="android-targetSdkVersion" value="21" />
 
-    <feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
 
-    <preference name="orientation" value="portrait" />
-    <preference name="fullscreen" value="true" />
-    <gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
-    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
+	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 
-    <preference name="deployment-target" value="8.0" />
-    <preference name="android-minSdkVersion" value="19" />
-    <plugin name="cordova-plugin-crosswalk-webview" source="npm" />
+	<preference name="deployment-target" value="8.0" />
+	<preference name="android-minSdkVersion" value="19" />
+	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
 
-    <plugin name="cordova-plugin-wkwebview-engine" />
-    <plugin name="cordova-plugin-file" />
-    <plugin name="cordova-plugin-httpd" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-httpd" />
 
-    <plugin name="cordova-plugin-whitelist" source="npm" />
-    <access origin="*" />
+	<plugin name="cordova-plugin-whitelist" source="npm" />
+	<access origin="*" />
 
-    <plugin name="cordova-plugin-inappbrowser" source="npm" />
-    <gap:plugin name="cordova-plugin-ad-admob" source="npm" />
+	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<gap:plugin name="cordova-plugin-ad-admob" source="npm" />
 
-    <!--<plugin name="cordova-plugin-settings-hook" spec="~0.2.4" />-->
-
-    <!--<platform name="ios">-->
-        <!--<config-file parent="NSCalendarsUsageDescription" platform="ios" target="*-Info.plist">-->
-            <!--<string>Advertisement would like to create a calendar event.</string>-->
-        <!--</config-file>-->
-        <!--<config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">-->
-            <!--<string>Advertisement would like to store a photo.</string>-->
-        <!--</config-file>-->
-        <!--<config-file parent="NSBluetoothPeripheralUsageDescription" platform="ios" target="*-Info.plist">-->
-            <!--<string>Advertisement would like to use bluetooth.</string>-->
-        <!--</config-file>-->
-    <!--</platform>-->
-    <!-- Optional splash screen image, e.g.: -->
-    <!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
 
 </widget>
