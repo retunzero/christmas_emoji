@@ -47,6 +47,7 @@
 
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<gap:plugin name="cordova-plugin-ad-admob" source="npm" />
+	<gap:plugin name="cordova-plugin-socialsharing" source="npm" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
