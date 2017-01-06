@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.dteam.emoji" version="1.0">
 
-	<name>Christmas Emoji -The Emoji Quiz</name>
+	<name>Guess Game - Emoji Mania 2017</name>
 	<description>Keep Calm and play christmas emoji</description>
 	<author email="retunzero@gmail.com">DTeam</author>
 
@@ -48,7 +48,17 @@
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<gap:plugin name="cordova-plugin-ad-admob" source="npm" />
 	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
-	<!-- Optional splash screen image, e.g.: -->
-	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+	<platform name="ios">
+		<config-file parent="NSCalendarsUsageDescription" platform="ios" target="*-Info.plist">
+			<string>Advertisement would like to create a calendar event.</string>
+		</config-file>
+		<config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
+			<string>Advertisement would like to store a photo.</string>
+		</config-file>
+		<config-file parent="NSBluetoothPeripheralUsageDescription" platform="ios" target="*-Info.plist">
+			<string>Advertisement would like to use bluetooth.</string>
+		</config-file>
+	</platform>
 
 </widget>
