@@ -47,6 +47,7 @@
 
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<gap:plugin name="cordova-plugin-ad-admob" source="npm" />
+		<plugin name="cordova-plugin-settings-hook" spec="~0.2.4" />
 	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
 
 	<platform name="ios">
